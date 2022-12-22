@@ -1,7 +1,7 @@
 import discord, time, sys
 from discord.ext import commands
 
-bot = commands.Bot(";", self_bot=True)
+bot = commands.Bot(";", self_bot=True, intents=discord.Intents.default())
 
 TOKEN = "TOKEN"
 active = False
