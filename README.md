@@ -4,7 +4,7 @@ whenver you have activated the bot.
 
 you need discord.py installed:</h3>
 ```
-<h3>pip install discord.py</h3>
+pip install discord.py
 ```
 
 <h2>Discord:<h/h2>
