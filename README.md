@@ -1,4 +1,4 @@
-# discord-afk-bot
+# <h1>discord-afk-bot</h1>
 <h3>Basic autoreply bot. what it does is send a message to anyone who dms you
 whenver you have activated the bot. 
 
