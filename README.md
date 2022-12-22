@@ -6,4 +6,4 @@ you need discord.py installed:
 pip install discord.py</h3>
 
 <h2>Discord:<h/h2>
-[<img alt="Precious#1337" width="40px" src="![https://discord.com/users/953676329168044063](https://discord.c99.nl/widget/theme-3/953676329168044063.png)" />](https://www.google.com/)
+![https://discord.com/users/953676329168044063](https://discord.c99.nl/widget/theme-3/953676329168044063.png)
