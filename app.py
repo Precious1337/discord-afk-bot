@@ -25,3 +25,21 @@ async def on_message(message):
         await bot.process_commands(message)
         if message.content.split(" ")[0] == ";afk":
             await message.delete()
+
+@bot.command()
+async def afk(ctx, option=None):
+    global active, replied
+    status = discord.Embed(title="bot status", color=discord.Colour(value=11735575))
+    if option != None:
+        if option.upper() == "ON":
+            status.add_field(name="BOT-Reply", value="ON")
+            active = True
+        if option.upper() == "OFF":
+            status.add_field(name="BOT-Reply", value="OFF")
+            active = False
+        if option.upper() == "RESTART":
+            status.add_field(name="BOT-Reply", value="Restarting...")
+            replied = []
+            status.add_field(name="BOT-Reply", value="Restarted")
+    else:
+        status.add_field(name="BOT-Reply", value=";afk on / ;afk off / ;afk restart")
