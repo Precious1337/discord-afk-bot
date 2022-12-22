@@ -3,7 +3,6 @@ from discord.ext import commands
 
 bot = commands.Bot(";", self_bot=True)
 
-NAME = "NAME"#discord name with tag
 TOKEN = "TOKEN"
 active = False
 replied = []
