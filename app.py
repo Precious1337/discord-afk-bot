@@ -43,3 +43,6 @@ async def afk(ctx, option=None):
             status.add_field(name="BOT-Reply", value="Restarted")
     else:
         status.add_field(name="BOT-Reply", value=";afk on / ;afk off / ;afk restart")
+        await ctx.send(embed=status)
+
+bot.run(TOKEN, bot=False)
